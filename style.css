@@ -1,0 +1,12 @@
+
+
+ T {
+    font: optional;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(94, 6, 6);
+    font-size: xx-large;
+    font-weight: bold;
+    block-size: auto;
+    display: block;
+}
+
