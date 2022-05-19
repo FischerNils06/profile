@@ -3,10 +3,18 @@
  T {
     font: optional;
     font-family: Arial, Helvetica, sans-serif;
-    color: #07075b;
-    font-size: xx-large;
+    color: #8a8abe;
+    font-size: 60px;
     font-weight: bold;
     block-size: auto;
     display: block;
+    background-color: #252825;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.Bild1 {
+    display: block;
+    text-align: center;
 }
 
