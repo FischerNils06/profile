@@ -22,3 +22,31 @@
     font-size: 25px;
     font-weight: bold;
 }
+
+.t1 {
+
+    font: optional;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #8a8abe;
+    font-size: 30px;
+    font-weight: bold;
+    block-size: auto;
+    display: block;
+    background-color: #252825;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 1px;
+    margin-top: 0px;
+}
+
+.link {
+    background-color: #252825;
+    color: #8a8abe;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px;
+
+}
