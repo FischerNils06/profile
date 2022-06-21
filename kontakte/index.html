@@ -5,11 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Document</title>
     <link rel="stylesheet" href="../style.css">
     <title>Meine Kontakte/index.html</title>
+    <script language="javascript" type="text/javascript" src="script.js"></script>
 </head>
 <body>
+    
     <ul class="link">
     <li><a href="/">Home</a></li>
   <li><a href="/Programmieren.html">Programmieren</a></li>
@@ -19,7 +22,24 @@
 </ul>
     <T>Kontakte</T>
 
-    <p>Man kann mich über E-Mail erreichen: <br><a href="nils.fischer06@gmail.com">E-Mail Adresse Link</a> </p>
+    <p>Man kann mich über E-Mail erreichen: <br><a href="nils.fischer2006@gmail.com">E-Mail Adresse Link</a> </p>
     <p>Nils Fischer <br> Schweiz</p>
+    <p id="Frage"></p>
+    <form action="kontakte.php" method="post">
+    <p class="Kontakt">Vorname:</p>
+    <p><input type="text" size="30" maxlength="50" name="vorname"></p>
+    <p class="Kontakt">Nachname:</p>
+    <p><input type="text" size="30" maxlength="50" name="nachname"></p>
+    <p class="Kontakt">Frage an mich:</p>
+    <textarea name="meine_nachricht" id="fam" cols="50" rows="10"></textarea>
+    <p><input type="reset" value="Abbrechen"></p>
+    <p><input type="submit" value="Versenden"></p>
+    
+</form>
+Show <a href="kontakte.sql">all sets of data</a>
+
+ 
+ 
+
 </body>
 </html>
